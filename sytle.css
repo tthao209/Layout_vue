@@ -1,0 +1,72 @@
+.wrapper{
+  position : relative;
+  height: 100vh;
+}
+
+.login__page{
+  width: 350px;
+  height: 350px;
+  border: 1px solid grey;
+  background-color: white ; 
+  text-align: center;
+  position : absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%)
+}
+
+.login__page h1{
+  color:  black;
+  text-align: center;
+  font-size: 180%;
+}
+
+.user__box input{
+  width: 250px;
+  height: 40px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  border: 1px solid grey;
+  padding-left:15px;
+}
+
+.btn__login{
+  width: 270px;
+  height: 40px;
+  margin-bottom: 20px;
+  background-color:#498fae;
+  border-radius: 5px;
+  border: 1px solid grey;
+  border: none;
+  color: #fff;
+}
+
+.other{
+  display: flex;
+  margin-left: 70px;
+}
+
+.other--btn__face{
+  width: 110px;
+  height: 40px;
+  border-radius: 5px;
+  background-color:#4b96fc ;
+  border: 1px solid grey;
+  border: none;
+  margin-left: -29px;
+  margin-bottom: 20px;
+  color: #fff;
+}
+
+.other--btn__google{
+  width: 110px;
+  height: 40px;
+  border-radius: 5px;
+  background-color:#e8413b ;
+  border: 1px solid grey;
+  border: none;
+  margin-left: 50px;
+  margin-bottom: 20px;
+  color: #fff;
+}
+/*--------------- Resposiveness-------*/
